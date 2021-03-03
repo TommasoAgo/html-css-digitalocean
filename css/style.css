@@ -47,13 +47,15 @@ li>.btn_signup {
 .jumbo_form>.btn_google {
     background-color: white;
     box-shadow: 1px 1px 3px lightgrey;
+    position: relative;
 }
 
 .btn_google img {
     max-width: 20px;
     height: auto;
     display: inline-block;
-
+    position: absolute;
+    left: 5px;
 }
 
 /* Burger Menu */
