@@ -1,0 +1,48 @@
+/* COMMON */
+.wrapper {
+    max-width: 900px;
+    margin: auto;
+}
+
+/* HEADER */
+
+.header_nav {
+    font-size: 13px;
+    padding: 20px 0;
+}
+
+/* Logo */
+.header_nav a {
+    color: black;
+    font-size: 13px;
+}
+
+.header_logo {
+    width: 70%;
+}
+
+/* Central Menu */
+.header_central_menu {
+    text-align: center;
+    padding-top: 5px;
+}
+
+/* Right Menu */
+.header_right_menu {
+    text-align: right;
+}
+
+/* SignUp Button */
+li>.btn_signup {
+    border: 1px solid #408fff;
+    color: #408fff;
+}
+
+/* Burger Menu */
+.burger_menu {
+    color: #408fff;
+    text-align: right;
+    font-size: 20px;
+    padding-top: 3%;
+}
+
