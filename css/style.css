@@ -130,16 +130,18 @@ li>.btn_signup:hover {
 
 .img_logo_container img {
     width: 100%;
+    height: auto;
 }
 
 .img_logo_container {
-    max-width: calc(( 100% / 6) -4px );
+    width: calc(( 100% / 6) - 4px );
     display: inline-block;
+    padding: 20px 5px;
 }
 
 @media all and (max-width: 767px) {
     .img_logo_container {
-        max-width: calc(( 100% / 2) -4px );
+        width: calc(( 100% / 2) - 4px );
         display: inline-block;
     }
 }
