@@ -8,6 +8,20 @@
     margin: 0;
 }
 
+.section_title {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.section_title>h2 {
+    color: #031c4e;
+}
+
+.section_title>p {
+    color: #6c7994;
+    font-size: 20px;
+}
+
 /* HEADER */
 
 .header_nav {
@@ -126,6 +140,7 @@ li>.btn_signup:hover {
 .logos {
     background-color: #f3f5f9;
     text-align: center;
+    padding-bottom: 40px;
 }
 
 .img_logo_container img {
@@ -151,6 +166,51 @@ li>.btn_signup:hover {
     text-align: center;
     font-size: 14px;
     color: #6f7b97;
-    padding-top: 20px;
+    padding-top: 40px;
+}
+
+/* Deploy and scale Section */
+.deployments {
+    padding: 20px 20px;
+}
+
+.deploy_list {
+    list-style-type: none;
+    border-left: 1px solid #cccccc;
+    padding-left: 10px;
+    margin-left: 40px;
+    margin: 20px 0;
+}
+
+@media all and (max-width: 767px) {
+    .deploy_list {
+        margin-left: 0;
+    }
+}
+
+.deploy_list li {
+    padding: 8px 0;
+}
+
+.deploy_list li>a {
+    color: #6c7994;
+    font-size: 15px;
+}
+
+.deplo {
+    padding: 0 10px;
+}
+
+.deplo>h4 {
+    color: #031c4e;
+}
+
+.deplo>p {
+    color: #6c7994;
+}
+
+/* Designed for Developers Section */
+.designed {
+    background-color: #f3f5f9;
 }
 
