@@ -214,3 +214,57 @@ li>.btn_signup:hover {
     background-color: #f3f5f9;
 }
 
+.slide {
+    width: 100%;
+    text-align: center;
+}
+
+.slide p {
+    padding: 20px 0 0 0;
+}
+
+.slide img {
+    width: 100%;
+}
+
+@media all and (max-width: 767px) {
+    .slide {
+        margin-left: 26%;
+    }
+}
+
+.chev_left {
+    text-align: right;
+}
+
+.chev_rigth {
+    text-align: left;
+}
+
+.chev_left,
+.chev_right {
+    line-height: 11;
+}
+
+.chev_left a,
+.chev_right a {
+    font-size: 40px;
+}
+
+/* Small circles */
+.small_circles li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.small_circle {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #006aff;
+    border-radius: 50%;
+}
+
+.first_circ {
+    background-color: #006aff;
+}
+
