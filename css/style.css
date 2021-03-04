@@ -4,6 +4,10 @@
     margin: auto;
 }
 
+.jumbotron {
+    margin: 0;
+}
+
 /* HEADER */
 
 .header_nav {
@@ -120,17 +124,31 @@ li>.btn_signup:hover {
 
 /* Logos Section */
 .logos {
-    back
+    background-color: #f3f5f9;
+    text-align: center;
 }
 
 .img_logo_container img {
     width: 100%;
-    /* TEST */
-    max-height: 120px;
+}
+
+.img_logo_container {
+    max-width: calc(( 100% / 6) -4px );
+    display: inline-block;
+}
+
+@media all and (max-width: 767px) {
+    .img_logo_container {
+        max-width: calc(( 100% / 2) -4px );
+        display: inline-block;
+    }
 }
 
 .logos h5 {
     text-transform: uppercase;
     text-align: center;
+    font-size: 14px;
+    color: #6f7b97;
+    padding-top: 20px;
 }
 
