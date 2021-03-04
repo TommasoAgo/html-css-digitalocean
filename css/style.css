@@ -39,9 +39,18 @@ li>.btn_signup {
     color: #408fff;
 }
 
+li>.btn_signup:hover {
+    background-color: #408fff;
+    color: white;
+}
+
 .jumbo_form>.btn_account {
     background-color: #579aff;
     color: white;
+}
+
+.jumbo_form>.btn_account:hover {
+    background-color: #004aff;
 }
 
 .jumbo_form>.btn_google {
@@ -57,6 +66,12 @@ li>.btn_signup {
     position: absolute;
     left: 5px;
 }
+
+.jumbo_form>.btn_google:hover {
+    background-color: lightgrey;
+}
+
+
 
 /* Burger Menu */
 .burger_menu {
@@ -97,3 +112,25 @@ li>.btn_signup {
 .get_started {
     color: #408fff;
 }
+
+.jumbo_form>p {
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+/* Logos Section */
+.logos {
+    back
+}
+
+.img_logo_container img {
+    width: 100%;
+    /* TEST */
+    max-height: 120px;
+}
+
+.logos h5 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
