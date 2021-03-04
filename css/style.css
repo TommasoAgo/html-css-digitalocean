@@ -288,3 +288,33 @@ li>.btn_signup:hover {
     padding-bottom: 40px;
 }
 
+/* Service */
+.service {
+    background-image: linear-gradient(to bottom, #0048C6, #001F9A);
+}
+
+.service .section_title>h2 {
+    color: white;
+}
+
+.city_code {
+    color: white;
+}
+
+.city {
+    color: #b4c1e6;
+}
+
+.test_speed>a {
+    color: #00ccd0;
+}
+
+.bord {
+    border-bottom: 1px solid white;
+}
+
+.pad {
+    padding: 10px 25px;
+}
+
+
