@@ -18,8 +18,8 @@
 }
 
 .section_title>p {
-    color: #6c7994;
     font-size: 20px;
+    color: #6c7994;
 }
 
 /* HEADER */
@@ -100,6 +100,12 @@ li>.btn_signup:hover {
 }
 
 /* MAIN */
+/* Common */
+.deplo>p,
+.features p {
+    color: #6c7994;
+}
+
 /* Jumbotron */
 
 /* Jumbotron Text */
@@ -115,7 +121,7 @@ li>.btn_signup:hover {
 
 .jumbotron .jumbo_text>p {
     color: #afc5ff;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 /* Jumbotron Form */
@@ -171,7 +177,7 @@ li>.btn_signup:hover {
 
 /* Deploy and scale Section */
 .deployments {
-    padding: 20px 20px;
+    padding: 20px 20px 20px 0;
 }
 
 .deploy_list {
@@ -205,14 +211,13 @@ li>.btn_signup:hover {
     color: #031c4e;
 }
 
-.deplo>p {
-    color: #6c7994;
-}
-
 /* Designed for Developers Section */
 .designed {
     background-color: #f3f5f9;
+    padding-bottom: 40px;
 }
+
+/* Slides and Circles */
 
 .slide {
     width: 100%;
@@ -266,5 +271,20 @@ li>.btn_signup:hover {
 
 .first_circ {
     background-color: #006aff;
+}
+
+/* Features */
+.features a {
+    padding-bottom: 10px;
+}
+
+.predict,
+.world_class,
+.reliable {
+    padding: 10px;
+}
+
+.features {
+    padding-bottom: 40px;
 }
 
