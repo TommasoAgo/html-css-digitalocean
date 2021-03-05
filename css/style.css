@@ -22,35 +22,6 @@
     color: #6c7994;
 }
 
-/* HEADER */
-
-.header_nav {
-    font-size: 13px;
-    padding-top: 20px;
-    padding-bottom: 10px;
-}
-
-/* Logo */
-.header_nav a {
-    color: black;
-    font-size: 13px;
-}
-
-.header_logo {
-    width: 70%;
-}
-
-/* Central Menu */
-.header_central_menu {
-    text-align: center;
-    padding-top: 5px;
-}
-
-/* Right Menu */
-.header_right_menu {
-    text-align: right;
-}
-
 /* Buttons */
 li>.btn_signup {
     border: 1px solid #408fff;
@@ -89,7 +60,45 @@ li>.btn_signup:hover {
     background-color: lightgrey;
 }
 
+.btn_create {
+    background-color: white;
+    color: #1477ff;
+    margin: 20px 0;
+}
 
+.btn_create:hover {
+    background-color: #1477ff;
+    color: white;
+}
+
+/* HEADER */
+
+.header_nav {
+    font-size: 13px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+/* Logo */
+.header_nav a {
+    color: black;
+    font-size: 13px;
+}
+
+.header_logo {
+    width: 70%;
+}
+
+/* Central Menu */
+.header_central_menu {
+    text-align: center;
+    padding-top: 5px;
+}
+
+/* Right Menu */
+.header_right_menu {
+    text-align: right;
+}
 
 /* Burger Menu */
 .burger_menu {
@@ -329,6 +338,7 @@ li>.btn_signup:hover {
 /* Development teams Section */
 .develop_teams {
     background-color: #f3f5f9;
+    padding-bottom: 40px;
 }
 
 .rocker_box {
@@ -361,7 +371,17 @@ li>.btn_signup:hover {
 }
 
 .rocker_circles {
-    padding-top: 40px;
+    padding-top: 20px;
+}
+
+/* Get Started Section */
+.get_start {
+    background-image: linear-gradient(to bottom, #0048C6, #001F9A);
+}
+
+.start_text {
+    color: white;
+    padding: 80px 0;
 }
 
 
